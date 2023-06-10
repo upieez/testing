@@ -52,7 +52,7 @@ async function getTransactionForMonth(req, res) {
         ["id", "DESC"],
       ],
     });
-    return res.json(transactions);
+    return res.render(transactions);
   } catch (err) {
     return res.status(400).json({ error: true, msg: err });
   }
