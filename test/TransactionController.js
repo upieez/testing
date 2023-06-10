@@ -7,7 +7,7 @@ const expect = chai.expect;
 chai.use(sinonChai);
 
 describe("Transaction Controller", async () => {
-  describe("Find Transaction function", async () => {
+  describe("Find Yearly Transaction function", async () => {
     const sandbox = sinon.createSandbox();
 
     let sampleReturnedTransactionList;
